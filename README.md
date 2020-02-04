@@ -1,4 +1,4 @@
-# PartOfSpeechTagging
+# Part Of Speech Tagging
 
 Introduction – 
 Correct part of speech tagging is the AI problem in which demands a part of speech associated with word in the sentence. 
