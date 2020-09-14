@@ -7,7 +7,8 @@ For example a word can be noun in some cases and same word can be verb in differ
 the position of the word in the sentence. The problem is implemented using three different algorithms-
 
   ## 1)Bays Net – 
-      It’s a simplified way to solve this problem. To solve the maximum probability of the word 
+    
+    It’s a simplified way to solve this problem. To solve the maximum probability of the word 
     with certain part of speech is picked. For example. Let’s consider the case of the word “The” Here
     we have maximum probability for the as determiner and the probability of “the” with remaining part of
     speeches is well below the max value. So by this logic we have returned the as determiner. Its provides 
@@ -35,7 +36,8 @@ For example the noun occurrence after determiner. And later the maximum value is
 Here accuracy is increased and is 95 % of the words while accuracy of the sentence is 53.70% which is better than simple bays net.
 
 ## 3. Complex MCMC – 
-      Gibbs sampling which is mainly used to handle the complex bays nets. 
+    
+    Gibbs sampling which is mainly used to handle the complex bays nets. 
     After considering the random labels for each word in the sentence. Here we consider the random number 
     for finding out the most stable output of the over the cumulative probabilities. 
     The final value of the part of speech is calculated based on the position where the random number lies between 0 and 1.
